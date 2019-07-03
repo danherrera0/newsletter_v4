@@ -111,18 +111,14 @@
 		}
 		.text.text-description{
 			width:512px;
-			transform:translateX(110px);
+			margin-left: 15%;			
 		}
 		.text-description{
 			font-size:16px;
 			line-height:1.58;
 			margin:8px 0;
 		}
-		.articletexttwo_main{
-			display:flex;
-			justify-content:space-between;
-			text-align:left;
-		}
+		
 		.u-no-spacing{
 			margin:0;
 			padding:0;
@@ -190,16 +186,13 @@
 }	@media screen and (max-width: 414px) and (max-device-width: 414px){
 		.text.text-description{
 			width:320px !important;
-			transform:translateX(5px) !important;
+			margin-left:0px !important;			
 		}
 
 }	@media screen and (max-width: 414px) and (max-device-width: 414px){
-		.articletexttwo_main{
-			display:flex !important;
-			flex-flow:wrap !important;
-			text-align:left !important;
-		}
-
+		.articletwo-paragraph{
+				display:block;
+			}
 }	@media screen and (max-width: 414px) and (max-device-width: 414px){
 		.articletexttwo_sub p{
 			margin:8px !important;
@@ -346,7 +339,7 @@
                                     <tr>
                                       <td mc:edit="articletext">
                                         <p class="text-dark text-description u-left-align">
-                                          Sneaker Con has been the premier sneaker event since 2009, giving collectors, customizers, and enthusiasts an opportunity to come together and celebrate the culture. You could always swap or cop a fresh pair at an event, and now sneakercon.com hosts an online marketplace. Everything is checked and verified by the Sneaker Con crew before it arrives at your door, and you can even bring pairs to an event and have them ‘legit tagged’ for immediate sale.
+                                          Sneaker Con has been the premier sneaker event since 2009, giving collectors, customizers, and enthusiasts an opportunity to come together and celebrate the culture. You could always swap or cop a fresh pair at an event, and now sneakercon.com. hosts an online marketplace. Everything is checked and verified by the Sneaker Con crew before it arrives at your door, and you can even bring pairs to an event and have them ‘legit tagged’ for immediate sale.
                                         </p>
                                         <br>
                                         <p class="text-dark text-description u-left-align">
@@ -391,31 +384,23 @@
                               <tbody class="u-no-border">
                                 <tr>
                                   <td>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
                                     <h2 mc:edit="articletitletwo" class="text-dark text-title u-left-align">Big Human - All Fresh All Summer</h2>
                                   </td>
-                                </tr>
-                                <tr>
-                                  <td mc:edit="articletexttwo" class="u-no-spacing">
-                                    <div class="articletexttwo_main">
-                                      <div class="articletexttwo_sub">
-                                        <p>Featured Humans:</p>
-                                        <p><b>Ken</b> - Nike Vapormax</p>
-                                        <p><b>Gainor</b> - Jordan 1 Shattered Backboard</p>
-                                        <p><b>Andrew</b> - adidas P-Sole Jeremy Scott</p>
-                                        <p><b>Leah</b>- adidas Yung 1 </p>
-                                      </div>
-                                      <div class="articletexttwo_sub">
-                                        <p><b>Griz</b> - adidas AW Run Alexander Wang</p>
-                                        <p><b>Kevin</b> - Nike Daybreak Undercover</p>
-                                        <p><b>Ju</b> - Nike Mars Yard 2.0 Tom Sachs</p>
-                                      </div>
-                                    </div>
-                                  </td>
-                                </tr>
+								</tr>
+								<tr>
+									<td class="articletwo-paragraph">
+										<p class="u-left-align text-dark">Featured Humans:</p>
+										<p class="u-left-align text-dark"><b>Ken</b> - Nike Vapormax</p>
+										<p class="u-left-align text-dark"><b>Gainor</b> - Jordan 1 Shattered Backboard</p>
+										<p class="u-left-align text-dark"><b>Andrew</b> - adidas P-Sole Jeremy Scott</p>
+										<p class="u-left-align text-dark"><b>Leah</b>- adidas Yung 1 </p>
+									</td>
+									<td class="articletwo-paragraph">
+										<p class="u-left-align text-dark"><b>Griz</b> - adidas AW Run Alexander Wang</p>
+										<p class="u-left-align text-dark"><b>Kevin</b> - Nike Daybreak Undercover</p>
+										<p class="u-left-align text-dark"><b>Ju</b> - Nike Mars Yard 2.0 Tom Sachs</p>
+									</td>
+								</tr>
                               </tbody>
                             </table>
                           </td>
