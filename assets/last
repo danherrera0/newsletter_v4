@@ -55,14 +55,6 @@
 			border-collapse:collapse;
 			border-spacing:0;
 		}
-		.articletwo-paragraph{
-			display:inline-block;
-			font-size:16px;
-			margin-right: 50px;
-		}
-		.articletwo-paragraph2{
-			padding-bottom: 33px !important;
-		}
 		.logo{
 			height:48px;
 			width:18px;
@@ -119,14 +111,12 @@
 		}
 		.text.text-description{
 			width:512px;
-			/* margin-left: 15%;			 */
 		}
 		.text-description{
 			font-size:16px;
 			line-height:1.58;
 			margin:8px auto;
 		}
-		
 		.u-no-spacing{
 			margin:0;
 			padding:0;
@@ -137,10 +127,6 @@
 		.u-background-white{
 			background-color:#ffffff;
 		}
-		.u-display-block{
-			display: block;
-		}
-		
 		.overflowed-wrapper{
 			height:260px;
 			overflow:visible;
@@ -198,21 +184,19 @@
 }	@media screen and (max-width: 414px) and (max-device-width: 414px){
 		.text.text-description{
 			width:320px !important;
-			margin-left:8px auto !important;			
+			margin-left:8px auto !important;
 		}
+
+}	@media screen and (max-width: 414px) and (max-device-width: 414px){
 		.link-white.text.text-description.u-left-align{
-			text-align: center!important;	
+			text-align:center !important;
 		}
 
 }	@media screen and (max-width: 414px) and (max-device-width: 414px){
 		.articletwo-paragraph{
-			display:block !important;
-			font-size:14px !important;
-			margin-right: 0px !important;
+			display:block;
 		}
-		.articletwo-paragraph2{
-			padding-bottom: 0px !important;
-		}
+
 }	@media screen and (max-width: 414px) and (max-device-width: 414px){
 		.articletexttwo_sub p{
 			margin:8px !important;
@@ -241,9 +225,9 @@
 
 }	@media screen and (max-width: 414px) and (max-device-width: 414px){
 		.second-article-container{
-			padding:0 10px !important;
+			padding:0 20px !important;
 		}
-/* changes from 20px to 10px on padding */
+
 }	@media screen and (max-width: 414px) and (max-device-width: 414px){
 		.hero{
 			width:318px !important;
@@ -319,7 +303,7 @@
                 <tr>
                   <td mc:edit="introtext">
                     <p class="link-white text text-description">
-                      We're excited to share the new <a class="white-link" href="https://www.sneakercon.com" style="color:#fff">sneakercon.com.</a> Now you can buy and sell kicks, read about the latest drops, and get tickets to events, all on one site. Designing and building this was extra special for some of the in-house sneaker-heads, so be sure to check below and see what’s on the feet of Big Humans this summer.
+                      We're excited to share the new <a class="white-link" href="https://www.sneakercon.com" style="color:#fff;">sneakercon.com.</a> Now you can buy and sell kicks, read about the latest drops, and get tickets to events, all on one site. Designing and building this was extra special for some of the in-house sneaker-heads, so be sure to check below and see what’s on the feet of Big Humans this summer.
                     </p>
                   </td>
                 </tr>
@@ -359,11 +343,11 @@
                                     <tr>
                                       <td mc:edit="articletext">
                                         <p class="text-dark text-description u-left-align">
-                                          Sneaker Con has been the premier sneaker event since 2009, giving collectors, customizers, and enthusiasts an opportunity to come together and celebrate the culture. You could always swap or cop a fresh pair at an event, and now <a class="link-blue" href="https://sneakercon.com/">sneakercon.com</a> hosts an online marketplace. Everything is checked and verified by the Sneaker Con crew before it arrives at your door, and you can even bring pairs to an event and have them ‘legit tagged’ for immediate sale.
+                                          Sneaker Con has been the premier sneaker event since 2009, giving collectors, customizers, and enthusiasts an opportunity to come together and celebrate the culture. You could always swap or cop a fresh pair at an event, and now <a class="link-blue" href="https://sneakercon.com/">sneakercon.com</a>. hosts an online marketplace. Everything is checked and verified by the Sneaker Con crew before it arrives at your door, and you can even bring pairs to an event and have them ‘legit tagged’ for immediate sale.
                                         </p>
                                         <br>
                                         <p class="text-dark text-description u-left-align">
-                                          ‘Legit tags’ have NFC technology, so you can verify that every pair is genuine using the <a class="link-blue" href="https://apps.apple.com/us/app/sneaker-con/id1386936727">Sneaker Con app</a>. It’s a great time to fill your closet.
+                                          ‘Legit tags’ have NFC technology, so you can verify that every pair is genuine using the Sneaker Con app. It’s a great time to fill your closet.
                                         </p>
                                         <br>
                                       </td>
@@ -401,39 +385,36 @@
                         <tr>
                           <td class="u-no-spacing">
                             <table class="article-content u-background-white">
-									<tr>
-											<td>
-												<h2 mc:edit="articletitletwo" class="text-dark text-title u-left-align">Big Human - All Fresh All Summer</h2>
-												<p class="text-small text-dark u-left-align text-description">Our love of sneakers goes beyond a single project, and the Big Human team has deep closets. You can expect to see a mix of classic retros or new releases anytime you stop by our studio. We took a snap of a few feet this week, here are the featured humans, clockwise from the top. And if you see a pair you like, 3 of them are available via <a class="link-blue" href="https://sneakercon.com/">sneakercon.com</a>.</p>
-											</td>
-										</tr>
-                                	<tbody class="u-no-border u-display-block">
-									<tr>
-										<td class="articletwo-paragraph ">
-											<p class="u-left-align text-dark text-small"><b>Gainor</b> - <a class="link-blue" href="https://sneakercon.com/product/1268-Reverse-Shattered-Backboard"> Jordan 1 Shattered Backboard</a></p>
-											<p class="u-left-align text-dark text-small"><b>Kevin</b> - <a class="link-blue" href="https://sneakercon.com/product/7911-Black">Nike Daybreak Undercover</a></p>
-											<p class="u-left-align text-dark text-small"><b>Andrew</b> - adidas P-Sole Jeremy Scott</p>
-											<p class="u-left-align text-dark text-small"><b>Griz</b> - adidas AW Run Alexander Wang</p>
-										</td>
-										<td class="articletwo-paragraph articletwo-paragraph2">
-											<p class="u-left-align text-dark text-small"><b>Ken</b> - Nike Vapormax</p>
-											<p class="u-left-align text-dark text-small"><b>Leah</b> - adidas Yung 1 </p>
-											<p class="u-left-align text-dark text-small"><b>Ju</b> - <a class="link-blue" href="https://sneakercon.com/product/4427-Tom-Sachs-2017">Nike Mars Yard 2.0 Tom Sachs</a></p>
-										</td>
-									</tr>
-								</tbody>
-							</table>
+                              <tbody class="u-no-border">
+                                <tr>
+                                  <td>
+                                    <h2 mc:edit="articletitletwo" class="text-dark text-title u-left-align">Big Human - All Fresh All Summer</h2>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="articletwo-paragraph text-small">
+                                    <p class="u-left-align text-dark">Featured humans, clockwise from the top:</p>
+                                    <p class="u-left-align text-dark"><b>Gainor</b> - Jordan 1 Shattered Backboard</p>
+                                    <p class="u-left-align text-dark"><b>Kevin</b> - Nike Daybreak Undercover</p>
+                                    <p class="u-left-align text-dark"><b>Andrew</b> - adidas P-Sole Jeremy Scott</p>
+                                    <p class="u-left-align text-dark"><b>Griz</b> - adidas AW Run Alexander Wang</p>
+                                  </td>
+                                  <td class="articletwo-paragraph text-small">
+                                    <p class="u-left-align text-dark"><b>Ken</b> - Nike Vapormax</p>
+                                    <p class="u-left-align text-dark"><b>Leah</b> - adidas Yung 1 </p>
+                                    <p class="u-left-align text-dark"><b>Ju</b> - Nike Mars Yard 2.0 Tom Sachs</p>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
                           </td>
-						</tr>
+                        </tr>
                       </tbody>
                     </table>
                   </td>
-				</tr>
-				
-
-				
+                </tr>
               </tbody>
-			</table>
+            </table>
             <table>
               <tbody class="u-no-border">
                 <tr>
@@ -464,10 +445,10 @@
               <a href="https://bighuman.com">
                 <img class="social-icon" src="https://gallery.mailchimp.com/31e6fb6a23c710166f65b3ab1/images/06cfb2a0-9fcc-4911-a497-9acad5951f3e.png" alt="06cfb2a0-9fcc-4911-a497-9acad5951f3e.png"></a>
                 <p class="text-footer footer-gray">If you'd rather not receive these messages, you may <a href="*|UNSUB|*" class="footer-link" style="color:#656565;font-weight:normal;">unsubscribe</a>.
-				</p>
-				<p class="text-footer footer-gray">If someone forwarded this to you, and you'd like to join the list <a href="*|UNSUB|*" class="footer-link" style="color:#656565;font-weight:normal;">Subscribe Here</a>.
-				</p>
-			  </td>
+                </p>
+                <p class="text-footer footer-gray">If someone forwarded this to you, and you'd like to join the list <a href="*|UNSUB|*" class="footer-link" style="color:#656565;font-weight:normal;">Subscribe Here</a>.
+                </p>
+              </td>
             </tr>
           </tbody>
         </table>
